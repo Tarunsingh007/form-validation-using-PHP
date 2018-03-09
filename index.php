@@ -75,17 +75,7 @@ gender: <input type="radio" name="sex">Female
 </form>
 <?php
 echo "<h2>Your Input:</h2>";
-echo $name;
-echo "<br>";
-echo $email;
-echo "<br>";
-echo $phone;
-echo "<br>";
-echo $website;
-echo "<br>";
-echo $comment;
-echo "<br>";
-echo $sex;
+echo "$name </br> $email </br> $phone </br> $website </br> $comment </br> $sex"
 ?>
 </body>
 </html>
